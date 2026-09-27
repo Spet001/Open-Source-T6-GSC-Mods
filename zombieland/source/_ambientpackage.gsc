@@ -19,7 +19,6 @@ spawnScriptModel(model, origin, angles)
     return ent;
 }
 
-// Desativa triggers de morte e kill barriers em todo o mapa
 disableDeathBarriers()
 {
     level.deathBarriersDisabled = true;
